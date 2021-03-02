@@ -1,29 +1,35 @@
 # NestJS-service
 NestJS service and Postgres database on Docker
 
-# Content
-- Dockerized the NestJS starter App.
-- Add a docker-compose file and run also a postgres db
-- Connect with NestJS to the db
-- Post Data && Get Data over http
+# Introduction
+The NestJS service for the imaginary API, including 2 end-points: 'addCustomer' and 'isCustomer'.
 
-# You need
+# Main choises
+- I chose to run postgres in docker (and not to install it locally).
+- I chose to create a class called 'CustomerEntity'. The class contains the customer's properties including an 'id', which is made automatically.
+- I chose to define the 'addCustomer' function as @Post, and the 'isCustomer' function as @Get, depends on what their purpose is. Therefore,
+  the 'addCustomer' function gets an object of type CustomerEntity and the 'isCustomer' function gets two params.
+- I chose in the 'isCustomer' function to get values by 'Params' and not by 'Query Params'.
+
+# Developing tools
+- I'm developing on macOS.
+- I used 'Postman' for sending requests and 'pgcli' for watching the db's values.
+
+# Installed
 - NPM
 - Node.js
 - NestJS
 - Docker
+- --
+- Postman
+- pgcli
+- nodemon
 
-# Start command for docker-compose file
-Builds, (re)creates, starts and attaches to conttainers for a service.
-`docker-compose up`
+# Start commands
+Run the program:
+`npm run d:up`
+`npm run start:watch`
 
-# Start command for Docker
-Build yout image:
-`docker build <your path> -t <<user>/project-name>`
+# Swagger
 
-Run:
-`docker run -p 8080:3000 <<user>/project-name>`
-
-For Example:
-`docker build <your path> -t lotan/nestjs-dockerized`
-`docker run -p 8080:3000 lotan/nestjs-dockerized`
+![image](https://user-images.githubusercontent.com/50168804/109670302-a71fb900-7b7b-11eb-8e29-5ff834e7ed6c.png)
