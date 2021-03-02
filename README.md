@@ -1,5 +1,5 @@
 # NestJS-service
-NestJS service and Postgres database on Docker
+NestJS service and Postgres database on Docker-compose
 
 ## Introduction
 The NestJS service for the imaginary API, including 2 end-points: 'addCustomer' and 'isCustomer'.
