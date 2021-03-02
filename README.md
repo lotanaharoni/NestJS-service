@@ -4,7 +4,7 @@ NestJS service and Postgres database on Docker-compose
 ## Introduction
 The NestJS service for the imaginary API, including 2 end-points: 'addCustomer' and 'isCustomer'.
 
-## Main choises
+## Main choices
 - I chose to run postgres in docker-compose (and not to install it locally).
 - I chose to create a class called 'CustomerEntity'. The class contains the customer's properties including an 'id', which is made automatically.
 - I chose to define the 'addCustomer' function as @Post, and the 'isCustomer' function as @Get, depends on what their purpose is. Therefore,
