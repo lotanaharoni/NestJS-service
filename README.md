@@ -17,7 +17,7 @@ The NestJS service for the imaginary API, including 2 end-points: 'addCustomer' 
 
 ## Installed
 - NPM
-- Node.js
+- Node.js v14.13.1
 - NestJS
 - Docker
 - --
@@ -26,7 +26,7 @@ The NestJS service for the imaginary API, including 2 end-points: 'addCustomer' 
 - nodemon
 
 ## Start commands
-Run the program: <br>
+Runs the program: <br>
 `npm run d:up` <br>
 `npm run start:watch`
 
