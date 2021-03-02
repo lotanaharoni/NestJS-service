@@ -5,7 +5,7 @@ NestJS service and Postgres database on Docker
 The NestJS service for the imaginary API, including 2 end-points: 'addCustomer' and 'isCustomer'.
 
 ## Main choises
-- I chose to run postgres in docker (and not to install it locally).
+- I chose to run postgres in docker-compose (and not to install it locally).
 - I chose to create a class called 'CustomerEntity'. The class contains the customer's properties including an 'id', which is made automatically.
 - I chose to define the 'addCustomer' function as @Post, and the 'isCustomer' function as @Get, depends on what their purpose is. Therefore,
   the 'addCustomer' function gets an object of type CustomerEntity and the 'isCustomer' function gets two params.
@@ -26,15 +26,16 @@ The NestJS service for the imaginary API, including 2 end-points: 'addCustomer' 
 
 ## Start commands
 Runs the program: <br>
-`npm install` <br>
-`npm run d:up` <br>
-`npm run start:watch`
+`npm install` - install all modules listed as dependencies in package.json<br>
+`npm run d:up` - runs the command 'docker-compose up'<br>
+`npm run start:watch`- Execute several tasks. Watch the 'src' file and for every change will compile the code.<br>
+Furthermore, creates the connection with the db.
 
 ## The Swagger
 
-![image](https://user-images.githubusercontent.com/50168804/109670302-a71fb900-7b7b-11eb-8e29-5ff834e7ed6c.png) <br> <br>
-![image](https://user-images.githubusercontent.com/50168804/109706163-460adc00-7ba1-11eb-9220-3f73ef0047ed.png) <br> <br>
-![image](https://user-images.githubusercontent.com/50168804/109706260-663a9b00-7ba1-11eb-9993-4ecdd14fbbb8.png) <br> <br>
+![image](https://user-images.githubusercontent.com/50168804/109670302-a71fb900-7b7b-11eb-8e29-5ff834e7ed6c.png) <br> <br> <br>
+![image](https://user-images.githubusercontent.com/50168804/109706163-460adc00-7ba1-11eb-9220-3f73ef0047ed.png) <br> <br> <br>
+![image](https://user-images.githubusercontent.com/50168804/109706260-663a9b00-7ba1-11eb-9993-4ecdd14fbbb8.png) <br> <br> <br>
 ![image](https://user-images.githubusercontent.com/50168804/109706320-78b4d480-7ba1-11eb-9fb4-5e5a69280570.png)
 
 
