@@ -16,20 +16,26 @@ The NestJS service for the imaginary API, including 2 end-points: 'addCustomer' 
 - I used 'Postman' for sending requests and 'pgcli' for watching the db's values.
 
 ## Installed
-- NPM
+- npm 6.14.9
 - Node.js v14.13.1
-- NestJS
-- Docker
+- NestJS 7.5.6
+- Docker 20.10.2
 - --
-- Postman
-- pgcli
-- nodemon
+- Postman 7.36.1
+- pgcli 3.1.0
 
 ## Start commands
 Runs the program: <br>
+`npm install` <br>
 `npm run d:up` <br>
 `npm run start:watch`
 
 ## The Swagger
 
-![image](https://user-images.githubusercontent.com/50168804/109670302-a71fb900-7b7b-11eb-8e29-5ff834e7ed6c.png)
+![image](https://user-images.githubusercontent.com/50168804/109670302-a71fb900-7b7b-11eb-8e29-5ff834e7ed6c.png) <br> <br>
+![image](https://user-images.githubusercontent.com/50168804/109706163-460adc00-7ba1-11eb-9220-3f73ef0047ed.png) <br> <br>
+![image](https://user-images.githubusercontent.com/50168804/109706260-663a9b00-7ba1-11eb-9993-4ecdd14fbbb8.png) <br> <br>
+![image](https://user-images.githubusercontent.com/50168804/109706320-78b4d480-7ba1-11eb-9fb4-5e5a69280570.png)
+
+
+
