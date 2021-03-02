@@ -26,7 +26,7 @@ The NestJS service for the imaginary API, including 2 end-points: 'addCustomer' 
 - nodemon
 
 ## Start commands
-Run the program:
+Run the program: <br>
 `npm run d:up` <br>
 `npm run start:watch`
 
