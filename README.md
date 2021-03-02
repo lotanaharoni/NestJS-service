@@ -27,7 +27,7 @@ The NestJS service for the imaginary API, including 2 end-points: 'addCustomer' 
 
 ## Start commands
 Run the program:
-`npm run d:up`
+`npm run d:up` <br>
 `npm run start:watch`
 
 ## The Swagger
