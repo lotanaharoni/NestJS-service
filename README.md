@@ -29,8 +29,8 @@ Runs the program: <br>
 `npm install` - install all modules listed as dependencies in package.json<br>
 `npm run d:up` - runs the command 'docker-compose up'<br>
 `npm run start:watch`- Execute several tasks. Watch the 'src' file and for every change will compile the code.<br>
-Furthermore, creates the connection with the db.
-
+Furthermore, creates the connection with the db <br>
+<br>
 ## The Swagger
 
 ![image](https://user-images.githubusercontent.com/50168804/109670302-a71fb900-7b7b-11eb-8e29-5ff834e7ed6c.png) <br> <br> <br>
