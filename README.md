@@ -12,7 +12,7 @@ The NestJS service for the imaginary API, including 2 end-points: 'addCustomer' 
 - I chose in the 'isCustomer' function to get values by 'Params' and not by 'Query Params'.
 
 ## Developing tools
-- I'm developing on macOS.
+- I'm developing on macOS 10.14.4.
 - I used 'Postman' for sending requests and 'pgcli' for watching the db's values.
 
 ## Installed
