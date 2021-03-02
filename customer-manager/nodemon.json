@@ -1,0 +1,6 @@
+{
+    "watch": ["src"],
+    "ext": "ts",
+    "signal": "SIGTERM",
+    "exec": "DATABASE_URL=postgres://user:password@localhost:35000/db ts-node src/main.ts"
+  }
